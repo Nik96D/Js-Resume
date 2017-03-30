@@ -10,7 +10,7 @@
     },
     "welcomeMessage": "",
     "skills": [
-    "always on time", "reliable", "competent", "communicative"],
+    "HTML", "CSS", "JavaScript", "jQuery", "Knockout JS", ""],
     "biopic": "http://www.clker.com/cliparts/d/L/P/X/z/i/no-image-icon-md.png"
 };
 
@@ -129,6 +129,8 @@ $("#header").append(HTMLskillsStart);
     var formattedSkill = HTMLskills.replace("%data%", bio.skills[2] );
     $("#skills").append(formattedSkill);
     var formattedSkill = HTMLskills.replace("%data%", bio.skills[3] );
+    $("#skills").append(formattedSkill);
+    var formattedSkill = HTMLskills.replace("%data%", bio.skills[4] );
     $("#skills").append(formattedSkill);
     var formattedname = HTMLmobile.replace("%data%", bio.contacts.mobile );
     $("#footerContacts").append(formattedname);
